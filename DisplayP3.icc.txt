@@ -1,0 +1,21 @@
+Profile CMM Type                : Apple Computer Inc.
+Profile Version                 : 4.0.0
+Profile Class                   : Display Device Profile
+Color Space Data                : RGB
+Profile Connection Space        : XYZ
+Profile Date Time               : 2022:01:01 00:00:00
+Profile File Signature          : acsp
+Device Attributes               : Reflective, Glossy, Positive, Color
+Connection Space Illuminant     : 0.9642 1 0.82491
+Profile Creator                 : Apple Computer Inc.
+Profile ID                      : ecfda38e388547c36db4bd4f7ada182f
+Profile Description             : Display P3
+Profile Copyright               : Copyright Apple Inc., 2022
+Media White Point               : 0.96419 1 0.82489
+Red Matrix Column               : 0.51512 0.2412 -0.00105
+Green Matrix Column             : 0.29198 0.69225 0.04189
+Blue Matrix Column              : 0.1571 0.06657 0.78407
+Red Tone Reproduction Curve     : (Binary data 32 bytes, use -b option to extract)
+Blue Tone Reproduction Curve    : (Binary data 32 bytes, use -b option to extract)
+Green Tone Reproduction Curve   : (Binary data 32 bytes, use -b option to extract)
+Color Components                : 3
