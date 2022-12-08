@@ -90,7 +90,8 @@ func main() {
 	wg.Wait()
 	quality := jpeg.Options{100}
 	jpeg.Encode(fileOut, imgOut, &quality)
-	fmt.Println(ExecGetOutput(fmt.Sprintf(`exiftool "-icc_profile<=DisplayP3.icc" -overwrite_original %v`, output)))
+	fmt.Println(ExecGetOutput(fmt.Sprintf(`exiftool "-icc_profile<=%v" -overwrite_original "%v"`,
+		os.ExpandEnv("$HOME/icc/DisplayP3.icc"), output)))
 }
 
 func Convert(point C.RGB) C.RGB {
